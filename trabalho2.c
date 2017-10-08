@@ -146,6 +146,7 @@ void dijkstra(){
 		control--;		
 		a = acha_menor(matriz_dijkstra[1], vertices_abertos);
 	}
+	print("Matriz após a aplicação do algoritimo\n");
 	for(a = 0; a < 3; a++){
 		for(b = 0; b < 7; b++){
 			printf("\t%d",matriz_dijkstra[a][b]);
